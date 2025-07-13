@@ -1,7 +1,7 @@
 import fs from "fs/promises"
 import path from "path"
-import { ApiError } from "./ApiError"
-import { ApiResponse } from "./apiResponse"
+import { ApiError } from "./ApiError.js"
+import { ApiResponse } from "./apiResponse.js"
 
 const deleteTemporaryFile = async (localPath) =>{
     try{
